@@ -1,0 +1,90 @@
+name: ecommerce_course
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+
+  #datetime
+  #jiffy: ^5.0.0
+  #intl: ^0.17.0
+  #http: ^0.13.4
+
+  #iamges
+  #cached_network_image: ^3.2.0
+  #image_picker: ^0.7.2+1
+  #animate
+  #show_up_animation: ^2.0.0
+  #auto_animated: ^3.0.1
+  #google_map
+  #flutter_polyline_points: ^1.0.0
+  #google_maps_flutter: ^2.1.5
+  #geolocator: ^8.0.5
+  #geocoding: ^2.0.4
+  #firebase
+  #firebase_messaging: ^11.2.7
+  #firebase_core: ^1.12.0
+  #flutter_local_notifications: ^9.5.3+1
+  #cloud_firestore: ^3.1.9
+  #local Date Cache
+  #sqflite: ^2.0.2
+  shared_preferences: ^2.2.1
+  flutter_otp_text_field: ^1.1.1
+  #path: ^1.8.0
+  #Qrcode
+  #qr_flutter: ^4.0.0
+  #scan: ^1.6.0
+  #grouped_list: ^4.2.0
+  #url_launcher: ^6.1.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo/Cairo-Bold.ttf
+          weight: 700
+
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf
+          weight: 700
+
+
+  assets:
+    - assets/images/
+
+
